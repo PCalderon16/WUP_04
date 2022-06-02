@@ -78,3 +78,5 @@ The wordsum scores of high school and graduate degree holders are different beca
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+  
+Based on the graphical, numerical, and inferential results, we found out that people who have different degrees score differently on wordsum. Moreover, graduate degree holders score the highest on wordsum while lt high school degree holders score the lowest. Therefore, we can reject the null hypothesis which claims that there is no difference between the average score on the WORDSUM test and level of schooling DEGREE.    
