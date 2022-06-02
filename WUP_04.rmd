@@ -12,6 +12,7 @@ require(knitr)
 require(tidyverse)
 require(tigerstats)
 
+mydata <- read_csv(file = "GSScsv.csv")
 ```
 
 # Introduction
@@ -35,7 +36,15 @@ $H_a$ There is a significant difference in average score on the WORDSUM test bet
 ### Graphical Descriptive Results
 
 <!--Graphical results here.  Make sure to show your code.  Provide appropriate labels for axes, giving units if possible, and provide a good title for the graph, too.  Use the graphical results to describe the patterns if any that exist in the data as focused toward the research question!-->
-
+  
+```{r}
+basicCN <- ggplot(mydata,aes(x=DEGREE,y=WORDSUM))
+```{r}
+basicCN + geom_boxplot()
+```
+  
+The median Wordsum score of people with a graduate degree is the highest among all other degree holders. Meanwhile, the interquartile range (box) of the Wordsum scores of high school graduates is the lowest among all the degree holders. The median scores of bachelor and junior college degree holders are about the same, but the box for the former is higher than the latter. Graphically, we can see that people with a graduate degree generally score better than people with other types of degree.
+  
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
